@@ -3,11 +3,12 @@
     flex-direction: row;
 }
 
+
 .LeftInfo{
     position: relative;
     left: 0px;
     width: 200px;
-    height: 100vh;
+    /* height: 100vh; */
     font-weight: bold;
     background-color:#002c79;
 }

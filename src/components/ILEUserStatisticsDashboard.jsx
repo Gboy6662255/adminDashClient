@@ -19,17 +19,18 @@ function ILEUserStatisticsDashboard() {
       <h4 style={{fontSize:"20px",color:"white",paddingRight:"40.25rem"}}>iLE User Statistics Dashboard</h4>
       <img src={ileblue} alt="" style={{width:"150px",height:"60px",marginRight:"20px"}} />
       </div>
-      
-
-    <div className='Grid'>
-      {items.map(item =>(<div className='grid-item'>
-      <DataT 
-      name={item.name}
-      data={data}
-      
-      />
-      </div>))}
-    </div>
+      <div className='dataScreen'>
+        <div className='Grid'>
+        {items.map(item =>(<div className='grid-item'>
+        <DataT 
+        name={item.name}
+        data={data}
+        
+        />
+        </div>))}
+      </div>
+      </div>
+    
     
 </div>
   )
