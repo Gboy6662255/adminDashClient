@@ -1,0 +1,26 @@
+.MainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.LeftInfo{
+    position: relative;
+    left: 0px;
+    width: 200px;
+    height: 100vh;
+    font-weight: bold;
+    background-color:#002c79;
+}
+.Overall{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.bullets{
+    color: white;
+    list-style: none;
+    padding: 300px 0 ;
+    
+}
