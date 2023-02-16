@@ -7,7 +7,7 @@
 }
 .dataScreen{
     overflow-y: scroll;
-    height: 600px;
+    height: 720px;
 }
 .dataScreen::-webkit-scrollbar{
     width: 10px;
