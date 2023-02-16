@@ -9,6 +9,17 @@
     overflow-y: scroll;
     height: 600px;
 }
+.dataScreen::-webkit-scrollbar{
+    width: 10px;
+}
+.dataScreen::-webkit-scrollbar-track{
+    background-color: transparent;
+
+}
+.dataScreen::-webkit-scrollbar-thumb{
+    border-radius: 12px;
+    background-color: whitesmoke;
+}
 .Grid{
     display: grid;
     grid-template-columns: auto auto;
