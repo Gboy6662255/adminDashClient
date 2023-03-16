@@ -21,6 +21,7 @@ const columns = [
  
 
 function DataT(props) {
+  console.log(props.data)
   return (
     <div className='DataTable'>
       <DataTable
